@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+
+<marquee behavior="" direction=""> <h1 style="color: red;">Registration Form</h1></marquee>
+ <div class="head">
+    <center>
+<form action="registration" method="post" enctype="multipart/form-data">
+    <fieldset style="width: 40%;">
+        <table>
+            <tr>
+                <td>
+                    Name:
+                </td>
+           
+                <td>
+                    <input type="text"  name="fullname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Father's Name:
+                </td>
+           
+                <td>
+                    <input type="text"  name="fname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     Number:
+                </td>
+           
+                <td>
+                    <input type="tel" pattern="[0-9]{10}"  name="mobile"  required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  Email:
+                </td>
+           
+                <td>
+                    <input type="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td>
+                   Date of birth:
+                </td>
+           
+                <td>
+                    <input type="date" name="dob" required>
+                </td>
+            </tr>
+          
+                <td>
+               Gender:
+                </td>
+                <td>
+                    <input type="radio" value="male" name="gender"> Male
+                    <input type="radio" value="female" name="gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>
+                  
+                      <label for="course">Select course:</label>
+                    </td>
+                    <td>
+                      <select name="course" id="">
+                        <option value="" ></option>
+                          <option value="I Sc">Inetermediate Science</option>
+                          <option value="I Com">Inetermediate Commerce</option>
+                          <option value="I A ">Inetermediate Arts</option>
+                          <option value="B Sc">Bachelor of Science</option>
+                          <option value="B Com">Bachelor of Commerce</option>
+                          <option value="B A "> Bachelor of Arts</option>
+                          <option value="BCA"> Bachelor of Computer Application</option>
+                          <option value="BBA"> Bachelor of Bussiness  Administration</option>
+                          <option value="BBM"> Bachelor of Bussiness  Management </option>
+                          <option value="M Sc">Master of Science</option>
+                          <option value="M Com">Master of Commerce</option>
+                          <option value="M A ">Master of Arts</option>
+                          <option value="MCA"> Master of Computer Application</option>
+                          <option value="MBA"> Master of Bussiness  Administration</option>
+                      </select>
+                        <!-- <input type="text"> -->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <label for="add">Address:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="add">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <label for="photo">Upload Photo:</label>
+                    </td>
+                    <td>
+                        <input type="file" name="pic" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <button type="submit">Register</button>
+                    </td>
+                    <td>
+                      <a href="Registration.html">  <button type="reset">Cancel</button></a>
+                    </td>
+                 </tr>
+                
+        </table>
+    </fieldset>
+</form>
+</center>
+</div>
+<div>
+    <center>
+<tr>
+    <td>
+ <h2>Already you have Registered <a href="Login.html">Click here to Login</a></h2>
+</td>
+</tr>
+</center>
+</div>
+
+</body>
+</html>
